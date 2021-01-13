@@ -54,9 +54,9 @@
     <div class="social-media">
         <h5>Đăng ký bằng ứng dụng khác</h5>
         <div class="social-icons">
-            <a href="#"><i class="icon-social-facebook" title="Facebook"></i></a>
-            <a href="#"><i class="icon-social-google" title="Google"></i></a>
-            <a href="#"><i class="icon-social-twitter" title="Twitter"></i></a>
+            <a href="{{ route('social.oauth', 'facebook') }}"><i class="icon-social-facebook" title="Facebook"></i></a>
+            <a href="{{ route('social.oauth', 'google') }}"><i class="icon-social-google" title="Google"></i></a>
+            <a href="{{ route('social.oauth', 'github') }}"><i class="icon-social-github" title="Github"></i></a>
         </div>
     </div>
 </div>
